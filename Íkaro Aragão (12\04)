@@ -1,0 +1,26 @@
+programa {
+  cadeia aluno
+  inteiro trabalhos, exercicios, provas, media
+  funcao inicio() 
+  {
+          limpa()
+          escreva("Aluno(a), informe seu nome:\n")
+          leia(aluno)
+
+          escreva("Olá ", aluno, "! Seja bem vindo(a)!\n")
+          escreva("------------------------------------\n")
+
+          escreva("Digite a nota dos Trabalhos: 0 a 100: ")
+          leia(trabalhos)
+
+          escreva("Digite a nota da Prova: ")
+          leia(provas)
+          
+          escreva("Digite a nota dos exercicios: ")
+          leia(exercicios)
+          
+          media = (trabalhos+exercicios+provas)/3
+          escreva(aluno, ", você ficou com a média: ", media, "\n")
+          escreva("+++++++++++++++++ Software Média v6.9 ++++++++++++++") 
+  }
+}
